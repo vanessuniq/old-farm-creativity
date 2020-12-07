@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+}
+
+.instructions-list li {
+  padding-bottom: 10px;
+}
+.welcome {
+  color: brown;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.barn {
+  border: dotted darkred 5px;
+  text-align: center;
+}
+.pens {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.pen {
+  margin-left: 25px;
+}
+
+button {
+  opacity: 0.8;
+  color: firebrick;
+  border-radius: 8px;
+  font-weight: 900;
+  padding: 0.75rem 1.5rem;
+}
+button:focus {
+  background-color: wheat;
+}
